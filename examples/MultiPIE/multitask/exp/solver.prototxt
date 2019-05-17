@@ -1,0 +1,15 @@
+net: "examples/MultiPIE/multitask/exp/train_val.prototxt"
+base_lr: 0.01
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 1247250
+stepvalue: 1621425
+stepvalue: 2369775
+display: 200
+average_loss: 200
+max_iter: 2494500
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 124725
+snapshot_prefix: "examples/MultiPIE/multitask/exp/model/identity_exp"
+solver_mode: GPU

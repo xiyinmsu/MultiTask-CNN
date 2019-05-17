@@ -1,0 +1,14 @@
+net: "examples/CASIA/pose_directed/train_val_8.prototxt"
+base_lr: 0.01
+lr_policy: "multistep"
+stepvalue: 1233640
+stepvalue: 1727096
+gamma: 0.1
+display: 200
+average_loss: 200
+max_iter: 1850460
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 123364
+snapshot_prefix: "examples/CASIA/pose_directed/model/pose"
+solver_mode: GPU
